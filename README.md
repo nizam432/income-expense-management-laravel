@@ -130,7 +130,7 @@ Import database:
 * Open phpMyAdmin
 * Select database
 * Click **Import**
-* Choose `database.sql`
+* Choose `income_expense_db.sql`
 * Click **Go**
 
 Update `.env` file:
