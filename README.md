@@ -136,6 +136,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
+Run migrations and seeders:
+```text id="ysb2gh"
+   php artisan migrate:fresh --seed
+```
+
 ### 5. Run Project
 
 ```bash id="2p8dqa"
