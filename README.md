@@ -179,7 +179,9 @@ Add project screenshots here.
 Example:
 
 ```text id="ny7e6m"
-assets/screenshots/dashboard.png
+assets/screenshots/dashbaord.png
+assets/screenshots/expense.PNG
+assets/screenshots/loan.png
 assets/screenshots/report.png
 ```
 
