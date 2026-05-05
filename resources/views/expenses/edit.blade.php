@@ -49,7 +49,7 @@
                                 <select name="products[{{ $key }}][category_id]" class="form-control category-select" required>
                                     <option value="">Select Category</option>
                                     @foreach ($categories as $cat)
-                                        <option value="{{ $cat->id }}" {{ $cat->id == $detail->category_id ? 'selected' : '' }}>
+                                        <option value="{{ $cat->id }}" {{ $cat->id == $detail->expense_category_id ? 'selected' : '' }}>
                                             {{ $cat->name }}
                                         </option>
                                     @endforeach
@@ -59,7 +59,7 @@
                                 <select name="products[{{ $key }}][product_id]" class="form-control product-select" required>
                                     <option value="">Select Product</option>
                                     @foreach ($products as $prod)
-                                        @if ($prod->category_id == $detail->category_id)
+                                        @if ($prod->category_id == $detail->expense_category_id)
                                             <option value="{{ $prod->id }}" {{ $prod->id == $detail->product_id ? 'selected' : '' }}>
                                                 {{ $prod->name }}
                                             </option>

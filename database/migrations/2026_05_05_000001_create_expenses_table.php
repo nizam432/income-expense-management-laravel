@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
 			$table->date('expense_date');
 			$table->decimal('total_amount', 10, 2);
-            $table->string('title');
+            $table->string('title')->nullable();
             $table->text('note')->nullable();
             $table->timestamps();
         });

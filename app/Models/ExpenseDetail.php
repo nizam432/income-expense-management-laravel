@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class ExpenseDetail extends Model
 {
-    protected $fillable = ['expense_id', 'category_id', 'product_id', 'quantity', 'unit', 'price','total'];
+    protected $fillable = ['expense_id', 'expense_category_id', 'product_id', 'quantity', 'unit', 'price','total'];
 
     public function expense()
     {
@@ -20,6 +20,6 @@ class ExpenseDetail extends Model
 
     public function category()
     {
-        return $this->belongsTo(ExpenseCategory::class, 'category_id');
+        return $this->belongsTo(ExpenseCategory::class, 'expense_category_id');
     }
 }

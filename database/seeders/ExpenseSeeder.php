@@ -30,7 +30,7 @@ class ExpenseSeeder extends Seeder
             ],
             [
                 'expense_id' => $expense->id,
-                'expense_category_id' => 1,
+                'expense_category_id' => 2,
                 'product_id' => 2,
                 'unit' => 'pcs',
                 'quantity' => 1,

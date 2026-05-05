@@ -121,7 +121,7 @@ class ExpenseController extends Controller
 
         foreach ($request->products as $item) {
             $expense->details()->create([
-                'category_id' => $item['category_id'],
+                'expense_category_id' => $item['category_id'],
                 'product_id'  => $item['product_id'],
                 'quantity'    => $item['quantity'],
                 'unit'        => $item['unit'],
@@ -218,7 +218,7 @@ class ExpenseController extends Controller
                 if (!empty($item['product_id'])) {
                     ExpenseDetail::create([
                         'expense_id' => $expense->id,
-                        'category_id' => $item['category_id'],
+                        'expense_category_id' => $item['category_id'],
                         'product_id' => $item['product_id'],
                         'quantity' => $item['quantity'],
                         'unit' => $item['unit'],

@@ -10,9 +10,9 @@ class ProductSeeder extends Seeder
     public function run(): void
     {
         Product::insert([
-            ['name' => 'Rice'],
-            ['name' => 'Bus Ticket'],
-            ['name' => 'Internet Bill'],
+            ['name' => 'Rice','category_id'=>1],
+            ['name' => 'Bus Ticket','category_id'=>2],
+            ['name' => 'Internet Bill','category_id'=>3],
         ]);
     }
 }
