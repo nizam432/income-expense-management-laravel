@@ -153,9 +153,7 @@ Open browser:
 http://127.0.0.1:8000
 ```
 
-> ⚠️ Note: Do not run `php artisan migrate` if you already imported `database.sql`
 
----
 
 ## 🔑 Demo Login
 
