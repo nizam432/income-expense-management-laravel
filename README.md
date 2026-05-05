@@ -124,9 +124,7 @@ Create a new database in phpMyAdmin:
 ```text id="ysb2gh"
 income_expense_db
 ```
-Run migrations and seeders:
 
-php artisan migrate:fresh --seed
 
 Update `.env` file:
 
