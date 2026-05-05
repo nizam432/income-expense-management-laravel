@@ -124,14 +124,9 @@ Create a new database in phpMyAdmin:
 ```text id="ysb2gh"
 income_expense_db
 ```
+Run migrations and seeders:
 
-Import database:
-
-* Open phpMyAdmin
-* Select database
-* Click **Import**
-* Choose `income_expense_db.sql`
-* Click **Go**
+php artisan migrate:fresh --seed
 
 Update `.env` file:
 
