@@ -177,7 +177,7 @@ return [
             'text' => 'expense_category',
             'url'  => 'expense-category',
             'icon' => 'fas fa-tags',
-            'can'  => 'admin-only',
+            'can'  => 'expense.category.view',
         ],
 
         // Expense
@@ -238,7 +238,7 @@ return [
         [
             'text' => 'users_management',
             'icon' => 'fas fa-users-cog',
-            'can'  => 'admin-only',
+            'can'  => 'manage.users.view',
             'submenu' => [
                 ['text' => 'users_all', 'url' => 'admin/users'],
                 ['text' => 'users_create', 'url' => 'admin/users/create'],

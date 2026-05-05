@@ -10,12 +10,10 @@ return new class extends Migration
     {
         Schema::create('expenses', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('category_id')->nullable();
-            $table->integer('quantity')->default(1);
-            $table->decimal('amount', 10, 2);
-            $table->string('unit')->default('Pieces');
-            $table->text('description')->nullable();
-            $table->date('expense_date')->nullable();
+			$table->date('expense_date');
+			$table->decimal('total_amount', 10, 2);
+            $table->string('title');
+            $table->text('note')->nullable();
             $table->timestamps();
         });
     }
