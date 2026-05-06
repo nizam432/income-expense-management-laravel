@@ -172,9 +172,6 @@ Password: 123456
 
 ## 📸 Screenshots
 
-Add project screenshots here.
-
-Example:
 
 ```text id="ny7e6m"
 public/screenshots/dashboard.PNG
