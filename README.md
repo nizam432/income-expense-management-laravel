@@ -176,7 +176,7 @@ Password: 123456
 ![Dashboard](public/screenshots/dashboard.PNG)
 ![Expense](public/screenshots/expense.PNG)
 ![Loan](public/screenshots/loan.png)
-![Report](public/screenshots/report.png)
+![Report](public/screenshots/report.png) 
 
 ---
 
