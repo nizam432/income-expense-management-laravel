@@ -173,12 +173,10 @@ Password: 123456
 ## 📸 Screenshots
 
 
-```text id="ny7e6m"
-public/screenshots/dashboard.PNG
-public/screenshots/expense.PNG
-public/screenshots/loan.png
-public/screenshots/report.png
-```
+![Dashboard](public/screenshots/dashboard.PNG)
+![Expense](public/screenshots/expense.PNG)
+![Loan](public/screenshots/loan.png)
+![Report](public/screenshots/report.png)
 
 ---
 
