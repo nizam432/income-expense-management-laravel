@@ -100,8 +100,8 @@ This software is designed to simplify financial decision-making and improve mone
 ### 1. Clone Repository
 
 ```bash id="x7l4gk"
-git clone https://github.com/nizam432/income-expense-management-system.git
-cd income-expense-management-system
+git clone https://github.com/nizam432/income-expense-management-laravel.git
+cd income-expense-management-laravel
 ```
 
 ### 2. Install Dependencies
