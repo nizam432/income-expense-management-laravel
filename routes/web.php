@@ -21,7 +21,6 @@ use App\Http\Controllers\Admin\PermissionController;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\App;
 
-
 Route::get('/test-lang', function() {
     return __('menu.dashboard');
 });
@@ -38,7 +37,6 @@ Route::get('locale/{locale}', function ($locale) {
 
          Session::put('locale', $locale);
     }
-
     return redirect()->back();
 })->name('change.language');
 
@@ -49,8 +47,6 @@ Route::get('/home', function () {
 });
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index')->name('home');
 Route::get('/dashboard/filter', [DashboardController::class, 'filter'])->name('dashboard.filter');
-
-
 
 // Profile Page
 Route::middleware(['auth'])->group(function () {
