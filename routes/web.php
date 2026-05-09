@@ -35,15 +35,12 @@ Route::get('locale/{locale}', function ($locale) {
     
     // Check if the passed locale is available in our configuration
     if (in_array($locale, array_values(config('app.available_locales')))) {
-        
-         // If valid, store the locale in the session
+
          Session::put('locale', $locale);
     }
-    // Redirect back to the previous page
+
     return redirect()->back();
 })->name('change.language');
-
-
 
 Route::get('/profile', [App\Http\Controllers\ProfileController::class, 'show'])
     ->name('profile.show');
